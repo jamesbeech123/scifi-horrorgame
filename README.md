@@ -19,6 +19,9 @@ A **procedurally generated** sci-fi horror game built with **Unity** and **C#**.
 
 ## Installation
 
+## Showcase Video
+[![Video Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)]((https://youtu.be/aBvOkvHSHlU))
+
 ### Prerequisites:
 1. Install [Unity Hub](https://unity3d.com/get-unity/download).
 2. Clone the repository to your local machine:
