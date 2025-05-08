@@ -1,4 +1,4 @@
-# Sci-Fi Horror Game 👁
+# Sci-Fi Horror Game 
 
 A **procedurally generated** sci-fi horror game built with **Unity** and **C#**. This game features a **reinforcement learning monster AI** that hunts the player, **procedurally generated levels**, and an **inventory system**. It's designed to provide a suspenseful and dynamic horror experience, with the player having to survive while being hunted by a terrifying AI.
 
