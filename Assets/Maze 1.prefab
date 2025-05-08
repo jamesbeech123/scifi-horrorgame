@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &499590672354838943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4856049370379180242}
+  - component: {fileID: 8399900543881256438}
+  m_Layer: 0
+  m_Name: Maze 1
+  m_TagString: MazeSpawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4856049370379180242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499590672354838943}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3631759, y: 3.7368577, z: -1.2526233}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8399900543881256438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499590672354838943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36904bbbce4ac7459139c1d9df4905f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 30
+  depth: 30
+  scale: 6
+  minEdges: 6
+  maxObjRooms: 4
+  minDistanceBetweenObjRooms: 6
+  maxResets: 10
+  straight: {fileID: 8872346896757395854, guid: 3d2c4db577743c348aaf6bf91369a9f5, type: 3}
+  fourWay: {fileID: 8212765518936547891, guid: 4655c56946d720e499e5b1fa6f524e39, type: 3}
+  threeWay: {fileID: 5108517653609599018, guid: 482ec074251c4e14ea55bc8663662f69, type: 3}
+  deadEnd: {fileID: 3811010469751217766, guid: f94e288056dd67647a5bdd1e519a4034, type: 3}
+  cornerTurn: {fileID: 6966602976296817137, guid: 83d29197a12a47941bac839656cc2ecd, type: 3}
+  placeholder: {fileID: 6897403594162300810, guid: 50c7f537341d231458109de0233d0bd8, type: 3}
+  mainRoom: {fileID: 6609339796384610955, guid: a9a1f38f81d3ca74b9bfd14ae5378919, type: 3}
+  testerBluePrefab: {fileID: 5332595676398286456, guid: 83a94fcf510181149ae35334f7f9c938, type: 3}
+  testerRedPrefab: {fileID: 5332595676398286456, guid: 13e2337f5ea6869489fedbd160537519, type: 3}
